@@ -50,7 +50,7 @@
     background-color: rgb(245, 221, 187);
     display: grid;
     grid-template-columns: repeat(10,10%);
-    grid-template-rows: 10% 35% 15% 20%;
+    grid-template-rows: 10% 35% 15% 20% 10%;
     row-gap: 2%;
 }
 
@@ -949,13 +949,13 @@ main{
 
     #whatsapp {
         position: fixed;
-        bottom: 35%;
+        bottom: 45%;
         left: 85%;
         z-index: -3;
      }
     
     #whatsapp img{
-        width: 80%;
+        width: 60%;
         height: 80%;
     }
 
