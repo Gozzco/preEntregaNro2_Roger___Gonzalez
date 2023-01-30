@@ -159,8 +159,9 @@ main{
 .main__textoPrincipal, h1{
     font-family: 'Marcellus', serif;
     color: rgb(235, 188, 46);
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-weight: bolder;
+    padding: 5% 0% 0% 0%;
     }
 
 .main__presentacion, h2{
@@ -180,10 +181,18 @@ main{
     object-fit: cover;
 }
 
-.carousel-control-prev, .carousel-control-next{
+#carrusel .carousel-control-prev{
     background-color: rgba(70, 67, 67, 0.75);
     margin: auto 0;
-    width: 3%;
+    width: 4%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+#carrusel .carousel-control-next{
+    background-color: rgba(70, 67, 67, 0.75);
+    margin: auto 0;
+    width: 4%;
     height: 15%;
     border-radius: 50%;
 }
