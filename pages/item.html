@@ -23,10 +23,10 @@
 
     <!----Comienza la cabecera-->
 
-    <header id="header__productos">
+    <header id="header__item">
 
         <div class="headercont__logo">
-            <a href="../index.html"><img src="../assets/200x50.jpg" alt="logo de Needo empresa de decoración para el hogar"></a>
+            <a href="../index.html"><img src="../assets/needologoposi.png" alt="logo de Needo empresa de decoración para el hogar"></a>
         </div>
 
         <div class="header__listaSecundaria">
@@ -46,7 +46,7 @@
                 <a href="./productos.html">Productos</a>
                 <a href="nosotros.html">Quiénes somos?</a>
                 <a href="./faq.html">Preguntas frecuentes</a>
-                <li>Contacto</li>
+                <a href="">Contactanos</a>
             </ul>
         </nav>
 
@@ -78,7 +78,7 @@
                             </form>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./">Contactos</a>
+                            <a class="nav-link" href="./">Contactanos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./nosotros.html">Quiénes somos?</a>
@@ -93,17 +93,48 @@
 
     </header>
 
-    <!------Producto----->
+    <!------ITEM SHOW----->
 
-    <Section id="producto">
+    <Section id="item">
 
-        <div class="producto__presentacion">
-            <img src="../assets/800x466.jpg" alt="silla eames">
-            <h2 class="producto__titulo">Silla Eames</h2>
-            <h2 class="producto__titulo">$ 1.000</h2>
-            <input class="botoncompra" type="button" value="Agregar al carrito">
+        <section id="carrusel__item">
+            <div id="carouselitem__" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/needoitem1.jpg" class="d-block w-100" alt="silla de tela gris con patas anguladas de madera">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/needoitem2.jpg" class="d-block w-100" alt="silla de tela gris con patas anguladas de madera">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/needoitem3.jpg" class="d-block w-100" alt="silla de tela gris con patas anguladas de madera">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/needoitem4.jpg" class="d-block w-100" alt="silla de tela gris con patas anguladas de madera">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/needoitem5.jpg" class="d-block w-100" alt="silla de tela gris con patas anguladas de madera">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button"                 data-bs-target="#carouselitem__" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"             data-bs-target="#carouselitem__" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
 
-        </div>
+        </section>
+
+        <section class="detalle__item">
+            <h2 class="producto__titulo">Silla Falcón</h2>
+
+            <h2 class="producto__titulo">$ 12.000,00</h2>
+
+            <a href="#" class="botoncompra">Agregar al carrito</a>
+        </section>
 
     </Section>
 
@@ -111,10 +142,29 @@
 
         <div>
             <p class="producto__descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos vel, quasi molestiae nihil laudantium assumenda aliquid libero itaque laboriosam quae, est quo repellendus. Vel quod debitis nesciunt? Ad, esse.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error quia ea voluptatibus est deserunt, iste, sunt doloremque libero nostrum quibusdam non dignissimos cum deleniti adipisci exercitationem a vitae illum.
-                
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati accusamus nemo consequatur eligendi, accusantium, excepturi sequi ab fugit tempore hic ad, quaerat consequuntur. Aspernatur quia quae provident hic exercitationem quos.
+                - MATERIAL: Patas de madera eucalipto y asiento de espuma de alta densidad <br><br>
+                - Tapizado en lino antimanchas gris claro <br><br>
+                - El producto viene desarmado. Incluye un completo Kit de armado con todos los componentes necesarios para su fácil ensamblaje. <br><br>
+                - MEDIDAS: - 50cm de ancho x 47cm del asiento al piso x 55cm de profundidad <br><br>
+
+                 
+                 --------------------------------------------------------------------------------
+                 <br><br>
+
+                ¿CÓMO COMPRO? <br><br>
+                1- Elegí los productos que quieras de las distintas categorías y añadilos al carrito <br>
+                2- Clickea en "Iniciar Compra". <br>
+                3- Completá tus datos y elegí donde querés recibirlo, o si preferís retirarlo por nuestros locales. Es muy importante que coloques bien tu mail! <br>
+                4- Elegí tu forma de pago y LISTO!. <br><br>
+
+                ¿CÓMO PUEDO ABONAR MI COMPRA? <br><br>
+                - Podes pagar tus compras en EFECTIVO presencial en locales, via TRANSFERENCIA BANCARIA y con TARJETAS DE CRÉDITO o DÉBITO <br><br>
+
+                ¿CUANTO CUESTA EL ENVÍO? <br><br>
+                - Si sos de CABA, podes retirar gratuitamente por nuestros locales o coordinar envío con costo adicional a través de nuestro flete! <br>
+                - Si sos de otra localidad de Argentina estas son las opciones: <br>
+                Productos de tamaño chico a mediano: al momento del checkout podes elegir entre Correo Argentino u Oca y el costo de envío se genera automaticamente.
+
             </p>
         </div>
 
@@ -122,31 +172,38 @@
     </section>
 
     <!-----Productos relacionados------->
+
+    <section class="tituloprodrelacionados">
+        <p>Productos relacionados</p>
+    </section>
     
-    <section id="item__productos__relacionados">
+    <section id="cont__productos__relacionados">
         
-        <div class="cont__item__ item1">
-            <a href="item.html"><img src="../assets/320x320.jpg" alt="manta con decorado geometrico"></a>
+        <div class="cont__productos__relacionad">
+            <a href="item.html"><img src="../assets/needoarticulosilla10.jpg" alt="silla fabricada en tela gris y con patas de madera natural"></a>
             <p>
-                Lorem ipsum dolor, sit amet consectetur
+                Silla Tachira <br>
+                $13.450,00
             </p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping"> |     Comprar</i>
         </div>
 
-        <div class="cont__item__ item2">
-            <a href="item.html"><img src="../assets/320x320.jpg" alt="manta con decorado geometrico"></a>
+        <div class="cont__productos__relacionad">
+            <a href="item.html"><img src="../assets/needoarticulosilla11.jpg" alt="silla fabricada en simil cuero marron y con patas de madera color natural"></a>
             <p>
-                Lorem ipsum dolor, sit amet consectetur
+                Silla Caracas <br>
+                $19.500,00
             </p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping"> |     Comprar</i>
         </div>
 
-        <div class="cont__item__ item3">
-            <a href="item.html"><img src="../assets/320x320.jpg" alt="manta con decorado geometrico"></a>
+        <div class="cont__productos__relacionad">
+            <a href="item.html"><img src="../assets/needoarticulosilla12.jpg" alt="Silla con estructura metalica negra y construida con yute de color natural"></a>
             <p>
-                Lorem ipsum dolor, sit amet consectetur
+                Silla Nueva Esparta <br>
+                $14.900,00
             </p>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping"> |     Comprar</i>
         </div>
 
     </section>
@@ -155,21 +212,21 @@
     <!-----Cierre de la página----->
 
     <section id="whatsapp">
-        <a href=""><img src="https://img.icons8.com/material-outlined/384/null/whatsapp--v4.png"/></a>
+        <i class="fa-brands fa-whatsapp"></i>
     </section>
 
     <footer id="footer">
 
         <div class="footer__logo">
-            <img src="../assets/200x50.jpg" alt="Logo de Needo venta de deco para el hogar">
+            <img src="../assets/needologoposi.png" alt="Logo de Needo venta de deco para el hogar">
         </div>
 
         <div class="footer__enlacesInternos">
             <ul>
                 <a href="./faq.html">Preguntas frecuentes</a>
-                <li>Contacto</li>
+                <a href="">Contactanos</a>
                 <a href="./nosotros.html">Quiénes somos?</a>
-                <li><a href="#header__productos">Ir arriba</a></li>
+                <a href="#header__productos">Ir arriba</a>
             </ul>
         </div>
 
